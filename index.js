@@ -1,7 +1,9 @@
 // Code your solution here
+const drivers = ['Bobby', 'Sammy', 'Sally', 'Annette', 'Sarah', 'Bobby']
+
 function findMatching(name){
-  let drivers = name.find(function(driver){
-    return driver;
-  });
+  name.find(function(e){
+    return e;
+  })
   
 }
