@@ -1,10 +1,7 @@
 // Code your solution here
 const drivers = ['Bobby', 'Sammy', 'Sally', 'Annette', 'Sarah', 'Bobby']
 
-let findMatching = () =>{
+function findMatching(drivers, string){
   
-  let newDrivers = drivers.filter(function(e){
-    return e === "Bobby";
-  });
   
 }
