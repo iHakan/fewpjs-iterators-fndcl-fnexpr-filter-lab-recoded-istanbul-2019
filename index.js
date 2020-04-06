@@ -2,7 +2,8 @@
 const drivers = ['Bobby', 'Sammy', 'Sally', 'Annette', 'Sarah', 'Bobby']
 
 function findMatching(){
-  drivers.filter(function(e){
+  
+  let newDrivers = drivers.filter(function(e){
     return e === "Bobby";
   });
   
